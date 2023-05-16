@@ -30,3 +30,50 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.link-studio:hover{
+    color: #404bbf;
+}
+.link-studio:focus{
+    color: #404bbf;
+}
+.link-portfolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.link-portfolio:hover {
+    color: #404bbf;
+}
+
+.link-portfolio:focus {
+    color: #404bbf;
+}
+.link-contacts{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.link-contacts:hover{
+    color: #404bbf;
+}
+.link-contacts:focus{
+    color: #404bbf;
+}
+.adress{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434445;
+}
+.adress:hover{
+    color: #404bbf;
+}
+.adress:focus{
+    color: #404bbf;
+}
