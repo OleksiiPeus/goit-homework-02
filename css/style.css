@@ -1,5 +1,5 @@
 :root {
-    --brand-color: #434445;
+    --brand-color: #434455;
     --side-color: #2e2f42;
     --third-color: #404bbf;
     --four-color: #4d5ae5;
@@ -7,7 +7,7 @@
 }
 body{
 font-family: 'Roboto', sans-serif;
-color: var(--brand-color), #434445;
+color: var(--brand-color), #434455;
 background-color: #FFFFFF;
 }
 .link-main{
