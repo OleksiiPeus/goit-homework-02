@@ -7,7 +7,7 @@
 }
 body{
 font-family: 'Roboto', sans-serif;
-color: var(--brand-color);
+color: var(--brand-color), #434445;
 background-color: #FFFFFF;
 }
 .link-main{
@@ -37,7 +37,13 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color);
+    color: var(--side-color);
+}
+.link-main-li:hover{
+    color: var(--third-color);
+}
+.link-main-li:focus{
+    color: var(--third-color);
 }
 .adress{
     font-style: normal;
