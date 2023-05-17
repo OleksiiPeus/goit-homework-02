@@ -1,14 +1,17 @@
-
-body{
-font-family: 'Roboto', sans-serif;
-color: #434445;
-background-color: #FFFFFF;
-}
-:root{
+:root {
     --brand-color: #434445;
     --side-color: #2e2f42;
     --third-color: #404bbf;
 }
+body{
+font-family: 'Roboto', sans-serif;
+color: var(--brand-color);
+background-color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+
 .link-main{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -25,6 +28,9 @@ background-color: #FFFFFF;
 .second-logo{
     color: var(--side-color);
 }
+.footer-second-logo{
+    color: #F4F4FD;
+}
 .list{
     list-style: none;
 }
@@ -33,13 +39,7 @@ background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--side-color);
-}
-.link-main-li{
-    color: var(--third-color);
-}
-.link-main-li{
-    color: var(--third-color);
+    color: var(--brand-color);
 }
 .adress{
     font-style: normal;
@@ -66,7 +66,7 @@ background-color: #FFFFFF;
 }
 .button{
     background-color: #4d5ae5;
-    font-family: 'Roboto' sans-serif;
+    font-family: Roboto sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -120,4 +120,16 @@ background-color: #FFFFFF;
 .footer{
     background-color: var(--side-color);
 }
+.white-bg{
+    background-color: #FFFFFF;
+}
 /* Portfiloi */
+.button-portfolio{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+
+}
